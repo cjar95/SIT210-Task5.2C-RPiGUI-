@@ -66,5 +66,5 @@ ledButton2 = Button(win, text = 'Turn Red LED On', font = myFont, command = ledT
 ledButton2.grid(row = 1, column = 1)
 
 ledButton3 = Button(win, text = 'Turn Green LED On', font = myFont, command = ledToggleGreen, bg = 'bisque2', height = 1, width = 24)
-ledButton3.grid(row = 0, column = 1)
+ledButton3.grid(row = 2, column = 1)
 
